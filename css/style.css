@@ -1,0 +1,35 @@
+html, body{
+    margin:0;
+    padding:0;
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    color: hsl(225, 100%, 94%);
+    background-image: url("../images/pattern-background-desktop.svg");
+}
+
+.card{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    width: min-content;
+    overflow: hidden;
+    border-radius: 10px;
+    background: #fff;
+}
+
+.card > img{
+    width: 300px;
+}
+
+.content {
+    text-align: center;
+}
+
+.heading{
+    font-weight: 900;
+    font-size: 20px;
+    color: hsl(223, 47%, 23%);
+}

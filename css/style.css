@@ -5,8 +5,7 @@ html, body{
     font-family: 'Red Hat Display', sans-serif;
     font-weight: 500;
     font-size: 14px;
-    color: hsl(225, 100%, 94%);
-    background-image: url("../images/pattern-background-desktop.svg");
+    color: hsl(223, 47%, 23%);
 }
 
 .card{
@@ -32,4 +31,24 @@ html, body{
     font-weight: 900;
     font-size: 20px;
     color: hsl(223, 47%, 23%);
+}
+
+.plan-content{
+    display: inline-block;
+}
+
+.plan-content p{
+    margin: 0;
+}
+
+.musicIcon{
+    float:left;
+}
+
+.plan {
+    display: inline-block;
+}
+
+.change {
+    float:right;
 }
